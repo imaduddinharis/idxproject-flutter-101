@@ -4,15 +4,18 @@ import 'package:flutter/material.dart';
 // import 'package:myapp/appbar/main.dart';
 // import 'package:myapp/layout-row-column/main.dart';
 // import 'package:myapp/card-parsing-data/main.dart';
-import 'package:myapp/navigation/main.dart';
+// import 'package:myapp/navigation/main.dart';
+import 'package:myapp/tabbar/main.dart';
 
 void main() {
   runApp(new MaterialApp(
+    
     title: "Flutter 101",
-    home: new NPageOne(),
-    routes: <String, WidgetBuilder>{
-      'pageOne': (BuildContext context) => new NPageOne(),
-      'pageTwo': (BuildContext context) => new NPageTwo(),
-    },
+    home: new TBHome(),
+
+    // routes: <String, WidgetBuilder>{
+    //   'pageOne': (BuildContext context) => new NPageOne(),
+    //   'pageTwo': (BuildContext context) => new NPageTwo(),
+    // },
   ));
 }
