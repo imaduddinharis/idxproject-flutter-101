@@ -13,27 +13,6 @@ class LVJHome extends StatefulWidget {
 
 class _LVJHomeState extends State<LVJHome> {
 
-  // late List dataJSON;
-
-  // Future<String> getData() async {
-  //     http.Response result = await http.get(
-  //     Uri.parse("https://jsonplaceholder.typecode.com/posts"), 
-  //     headers: {
-  //       "Accept": "application/json"
-  //     }
-  //   );
-  
-  //   this.setState((){
-  //     dataJSON = jsonDecode(result.body);
-  //   });
-
-  // }
-
-  // @override
-  // void initState() {
-  //   this.getData();
-  // }
-
   static Future<List<JSONData>> getData() async{
     var url = Uri.parse("https://jsonplaceholder.typicode.com/albums/1/photos");
     final response = await http.get(url, headers: {
