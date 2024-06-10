@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 // import 'package:myapp/card-parsing-data/main.dart';
 // import 'package:myapp/navigation/main.dart';
 // import 'package:myapp/tabbar/main.dart';
-import 'package:myapp/image-usage/main.dart';
+// import 'package:myapp/image-usage/main.dart';
 import 'package:myapp/listview/main.dart';
 
 void main() {
